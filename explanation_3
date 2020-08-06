@@ -6,3 +6,12 @@ I assigned each left bit by 0 and each right bit by 1
 After that the encode function is a recursive function that traverse all the nodes starting from the top top till the tree ends and add the codes for each child
 
 for the decoding I used a recursive function and  traversed the tree based on the encoded data till each letter is encoded
+
+in huffman encoding
+the frequencies count and traversing te tree are both  of complexity o(n)
+The encode method is of  complexity O(nlogk)
+so total complexity is o(n)
+
+in huffman decoding complexity is o(nlogk) where n is the length of the data and k is the height of the tree
+
+the space needed is a dictionary of length n, a tree of height k and frequenncies dict of size n

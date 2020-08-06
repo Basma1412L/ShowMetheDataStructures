@@ -2,3 +2,5 @@ I created a class that works like a linked list but in the opposite direction
 it contains previous_hash which represents the previous hash , hash which represents it's own hash and  prev which points to the previous node
 whenever a new information is added it will pass on the hash function and then it will be put on the tail and point to the previous node
 the str function starts from the tail and moves backwards
+
+complexity is o(n) and same for space

@@ -3,3 +3,6 @@ the function will check if  the path is none then it will stop
 else it will check if it is a directory or a file
 if a directory it will call the function on all the children
 else if it is a file it will append the file to the other files and return it
+
+The complexity of find_files  is o(n) where n is the number of dictionaries and paths and dictioniaries inside each one
+array of the paths size is required to save the paths

@@ -1,2 +1,5 @@
 The union function works by appending the head of the second list to the tail of the first list
 the intersection loops on the two lists and check the common nodes and adds them to the intersection list and then return them
+
+The time complexity of both the intersection and union is o(n^2)
+and space complexity of o(n) ffor each linked list

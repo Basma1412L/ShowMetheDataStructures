@@ -37,7 +37,7 @@ def is_user_in_group(user, group):
     for u in users:
         if u == user:
             return True
-    return False or exist
+    return  exist
 
 
 parent = Group("parent")
