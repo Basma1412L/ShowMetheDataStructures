@@ -1,0 +1,8 @@
+I followed the exact algorithm described in the problem page:
+first i created a dict that count the frequencies of each letter
+then I used a priority Queue to keep the nodes in order using the frequencies
+Then I kept poping the child nodes till one node was left
+I assigned each left bit by 0 and each right bit by 1
+After that the encode function is a recursive function that traverse all the nodes starting from the top top till the tree ends and add the codes for each child
+
+for the decoding I used a recursive function and  traversed the tree based on the encoded data till each letter is encoded

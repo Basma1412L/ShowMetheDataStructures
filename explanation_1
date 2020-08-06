@@ -1,0 +1,3 @@
+I used OrderedDict to keep track of the order while inserting to the dict.
+For the get method I get the value of the element then reinsert it to increase its position in the dictionary.
+For the set if the capacity is full, then the last element will be removed.

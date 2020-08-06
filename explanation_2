@@ -1,0 +1,5 @@
+I used recursion to solve this problem
+the function will check if  the path is none then it will stop
+else it will check if it is a directory or a file
+if a directory it will call the function on all the children
+else if it is a file it will append the file to the other files and return it
